@@ -1,0 +1,41 @@
+.fixed-top {
+    position: fixed;
+        top: 0;
+        left: 0;
+}
+
+.sticky-top {
+    position: sticky;
+        top: 0;
+}
+
+.static {
+    position: static !important;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.center-box {
+    position: absolute;
+        top: 50%;
+        left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.z-index-1000 {
+    z-index: 1000;
+}
+
+.z-index-1100 {
+    z-index: 1100;
+}
+
+.z-index-1200 {
+    z-index: 1200;
+}

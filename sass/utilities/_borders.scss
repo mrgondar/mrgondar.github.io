@@ -1,0 +1,31 @@
+// BORDER RADIUS
+.rounded-circle {
+    border-radius: 50%;
+}
+
+.br1 {
+    border-right: 1px solid darken($color: #fff, $amount: 10);
+}
+
+.bb1 {
+    border-bottom: 1px solid darken($color: #fff, $amount: 10);
+}
+
+.bb2 {
+    border-bottom: 1px solid darken($color: #339af0 , $amount: 10);
+}
+
+.bt1 {
+    border-top: 1px dashed darken($color: #fff, $amount: 20);
+}
+
+.bt2 {
+    border-top: 1px solid lighten($color: #339af0 , $amount: 15);
+}
+
+.b1 {
+    border: 1px solid var(--gray3);
+    border-top: solid 6px var(--gray8);
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}

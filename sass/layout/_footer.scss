@@ -1,0 +1,35 @@
+.footer {
+    .office, .follow-us {
+        flex: 0 0 100%;
+        padding-right: 0;
+    }
+
+    .about, .services {
+        flex: 0 0 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer {
+        .office {
+            flex: 0 0 100%;
+        }
+    
+        .about, .services, .follow-us {
+            flex: 0 0 33.333333%;
+        }
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .footer {
+        .office {
+            flex: 0 0 40%;
+            padding-right: 30px;
+        }
+
+        .about, .services, .follow-us {
+            flex: 0 0 20%;
+        }
+    }
+  }

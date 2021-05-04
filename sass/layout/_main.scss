@@ -1,0 +1,179 @@
+.main {
+
+    &-home {
+        .services {
+            .seafreight, .airfreight, .consol, .trucking {
+                -webkit-box-flex: 0;
+                        flex: 0 0 100%;
+            }
+        }
+
+        .news {
+            &-item {
+                -webkit-box-flex: 0;
+                        flex: 0 0 100%;
+                margin: 1.25%;
+                &:hover, &:focus, &:active {
+                    box-shadow: 0 10px 10px 0 rgba(184,184,184,.5);
+                }
+
+                &:hover .news-img, &:focus .news-img, &:active .news-img {
+                    background-color: var(--gray9);
+                    background-blend-mode: screen;
+                }
+
+            }
+
+            &-img {
+                background-size: 100% 100%;
+            }
+        }
+
+        .contact {
+            .contact-form {
+                flex: 0 0 100%;
+            }
+        }
+    }
+
+    &-about {
+        flex: 0 0 100%;
+    }
+
+    &-contact {
+        .contact-item {
+            flex: 0 0 100%;
+        }
+    }
+
+    &-services {
+        
+        .content {
+            flex: 0 0 100%;
+
+            ul {
+                list-style: disc;
+                margin-left: 20px;
+            }
+        }
+
+        .img {
+            flex: 0 0 100%;
+            img {
+                border-radius: 10px 10px;
+            }
+        }
+    }
+}
+
+.sidebar {
+    flex: 0 0 100%;
+}
+
+@media (min-width: 768px) {
+    .main {
+
+        &-home {
+            .services {
+                .seafreight, .airfreight, .consol, .trucking {
+                    -webkit-box-flex: 0;
+                            flex: 0 0 50%;
+                }
+            }
+
+            .news {
+                &-item {
+                    -webkit-box-flex: 0;
+                            flex: 0 0 47.5%;
+                }
+            }
+
+            .contact {
+                .contact-form {
+                    flex: 0 0 80%;
+                }
+            }
+        }
+
+        &-about {
+            flex: 0 0 70%;
+        }
+
+        &-contact {
+            .contact-item {
+                flex: 0 0 50%;
+            }
+        }
+
+        &-services {
+            .content {
+                flex: 0 0 60%;
+            }
+
+            .img {
+                flex: 0 0 40%;
+
+                img {
+                    height: 224px;
+                }
+            }
+
+            .container-fluid:nth-of-type(2n) {
+                .content {
+                    order: 1;
+                }
+    
+                .img {
+                    order: 2;
+                }
+            }
+        }
+    }
+
+    .sidebar {
+        flex: 0 0 30%;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .main {
+
+        &-home {
+            .about {
+                .img {
+                    -webkit-box-flex: 0;
+                            flex: 0 0 32.75%;
+
+                    img {
+                        height: 363px;
+                    }
+                }
+                .text {
+                    -webkit-box-flex: 0;
+                            flex: 0 0 67.25%;
+                }
+            }
+
+            .services {
+                .seafreight, .airfreight, .consol, .trucking {
+                    -webkit-box-flex: 0;
+                            flex: 0 0 25%;
+                }
+            }
+
+            .news {
+                &-item {
+                    -webkit-box-flex: 0;
+                            flex: 0 0 30.833333%;
+                }
+            }
+
+            .contact {
+                .contact-form {
+                    flex: 0 0 50%;
+                }
+            }
+        }
+    }
+}

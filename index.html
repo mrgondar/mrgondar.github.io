@@ -3,9 +3,320 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>F&F Services Multimodal Transport Co., Ltd</title>
+    <meta property="og:url" content="https://fftrans.vn/">
+    <link rel="shortcut icon" href="./img/favico.gif" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css?v1.0"/>
 </head>
 <body>
-    <h1>Hello World</h1>
+<!--BEGIN HEADER-->
+    <header id="header" class="container-fluid bg-white">
+        <div class="container flex-row justify-between align-center h110 fs8 bb1 ph20">
+            <a class="logo" href="/"><img src="https://fftrans.vn/img/logo-black.gif" alt="logo-fftransports" width="216"></a>
+            <div class="info flex-row">
+                <div class="ph20 br1">
+                    <h4 class="blue mb10">CALL US</h4>
+                    <span>0225 3 826 248</span>
+                </div>
+                <div class="ph20">
+                    <h4 class="blue mb10">EMAIL US</h4>
+                    <span>peter@fftrans.vn</span>
+                </div>
+                <div class="flex-row align-center fs2">
+                    <a href="#" class="box-50 relative bg-blue white rounded-circle ml15 hvr-bg-darken"><i class="fa fa-facebook-f center-box"></i></a>
+                    <a href="#" class="box-50 relative bg-blue white rounded-circle ml15 hvr-bg-darken"><i class="fa fa-twitter center-box"></i></a>
+                    <a href="#" class="box-50 relative bg-blue white rounded-circle ml15 hvr-bg-darken"><i class="fa fa-linkedin center-box"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+<!--END HEADER-->
+
+<!--BEGIN NAVIGATION -->
+    <nav id="nav" class="nav-primary container-fluid bg-white b-shadow1 sticky-top z-index-1100">
+            <div class="container flex-row justify-between align-center gray8 h60">
+                <a href="/" class="logo ph10"><img src="./img/logo-black.gif" alt="logo-fftransports" width="135"></a>
+                <div class="toggle flex-col rounded-circle box-40 justify-center align-center"><span class="bars"></span></div>
+                <ul class="menu flex-row justify-even align-center w-full">
+                    <li class="menu-item flex-row align-center hvr-center fw-bold ph10 h60 active"><a href="/"><i class="fa fa-home"></i> HOME</a></li>
+                    <li class="menu-item flex-row align-center hvr-center fw-bold ph10 h60"><a href="/about"><i class="fa fa-address-card"></i> ABOUT US</a></li>
+                    <li class="dropdown">
+                        <div id="services-1" class="menu-item dropbtn flex-row align-center hvr-center fw-bold ph10 h60">
+                            <i class="fa fa-globe"></i>&nbsp;SERVICES&emsp;<i class="fa fa-caret-down" aria-hidden="true"></i>
+                        </div>
+                        <ul id="services-1-drop" class="dropdown-content w250 bg-gray1">
+                            <li><a href="/services" class="d-block ph20 pv15 hvr-bg-orange"><span class="text">Consolidation Service</span></a></li>
+                            <li><a href="/services" class="d-block ph20 pv15 hvr-bg-orange bt1"><span class="text">Sea Freight</span></a></li>
+                            <li><a href="/services" class="d-block ph20 pv15 hvr-bg-orange bt1"><span class="text">Air Freight</span></a></li>
+                            <li><a href="/services" class="d-block ph20 pv15 hvr-bg-orange bt1"><span class="text">Trucking</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item flex-row align-center hvr-center hvr-orange fw-bold ph10 h60"><a href="/news"><i class="fa fa-newspaper-o" aria-hidden="true"></i> NEWS</a></li>
+                    <li class="menu-item flex-row align-center hvr-center hvr-orange fw-bold ph10 h60"><a href="/contact"><i class="fa fa-phone-square" aria-hidden="true"></i> CONTACTS</a></li>
+                </ul>
+            </div>
+    </nav>
+    <nav class="nav-secondary fixed-top o-fl-auto z-index-1200 flex-col bg-blue gray2 h-full">
+        <div class="logo item-center pv10"><img src="./img/logo-white.gif" alt="logo-fftransports" width="162"></div>
+        <ul class="menu">
+            <li class="menu-item ph20 pv15 bb2 hvr-bg-orange active"><a href="/"><i class="fa fa-home"></i> Home</a></li>
+            <li class="menu-item ph20 pv15 bb2 bt2 hvr-bg-orange"><a href="/about"><i class="fa fa-address-card"></i> About Us</a></li>
+            <li class="dropdown bb2 bt2">
+                <div id="services" class="menu-item ph20 pv15 dropbtn flex-row justify-between align-center hvr-bg-orange">
+                    <span><i class="fa fa-globe"></i> Services</span>
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                </div>
+                <ul id="services-drop" class="dropdown-content static">
+                    <li class="ph30 pv15 hvr-bg-orange"><a href="/services">Consolidation Service</a></li>
+                    <li class="ph30 pv15 hvr-bg-orange"><a href="/services">Sea Freight</a></li>
+                    <li class="ph30 pv15 hvr-bg-orange"><a href="/services">Air Freight</a></li>
+                    <li class="ph30 pv15 hvr-bg-orange"><a href="/services">Trucking</a></li>
+                </ul>
+            </li>
+            <li class="menu-item ph20 pv15 bb2 bt2 hvr-bg-orange"><a href="/news"><i class="fa fa-newspaper-o" aria-hidden="true"></i> News</a></li>
+            <li class="menu-item ph20 pv15 bt2 hvr-bg-orange"><a href="/contact"><i class="fa fa-phone-square" aria-hidden="true"></i> Contact</a></li>
+        </ul>
+        <div class="copyright item-center mt-auto pv10 gray3 fs1">Copyright 2020 - F&F TRANSPORTS</div>  
+    </nav>
+    <div class="mask toggle fixed-top z-index-1000 w-full h-full"></div>
+<!-- END NAVIGATION -->
+
+<!-- BEGIN MAIN -->
+<main class="main-home">
+    <!--CAROUSEL -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://fftrans.vn/img/slide-1.jpg" alt="F&F Services Multimodal Transport Co., Ltd" width="100%">
+          <div class="carousel-caption d-md-block">
+            <h3>F&F Services Multimodal Transport Co., Ltd</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://fftrans.vn/img/summer-trip-1.jpg" alt="F&F Services Multimodal Transport Co., Ltd" width="100%">
+          <div class="carousel-caption d-md-block">
+            <h3>Summer Trip</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://fftrans.vn/img/summer-trip-2.jpg" alt="F&F Services Multimodal Transport Co., Ltd" width="100%">
+          <div class="carousel-caption d-md-block">
+            <h3>Summer Trip</h3>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- ABOUT -->
+    <div class="about container flex-row wrap pv40 relative">
+        <div class="img ph15 mb1"><img src="./img/slide-1.jpg" alt="fftransport" class="w-full h-full"></div>
+        <div class="text ph15 wow fadeIn">
+            <label class="ph15 pv5 bg-orange white fw-bold mb1">THE COMPANY</label>
+            <h1 class="fs3 mb1">Công Ty TNHH Dịch Vụ Vận Chuyển Đa Phương Thức F&F</h1>
+            <p class="mb1">Chào mừng đến với F&F Transports.  Là một trong những nhà giao nhận vận tải hàng đầu, chúng tôi đã và đang cung cấp các dịch vụ hậu cần, hải quan và vận tải nội địa đáng tin cậy, linh hoạt và chi phí hợp lý cho quý khách hàng. Dịch vụ được cung cấp bao gồm: dịch vụ giao nhận vận tải đường biển/ đường hàng không quốc tế, gom hàng, dịch vụ kho bãi, chuyển tải, dịch vụ trọn gói "Door to Door", thông quan và quản lí giao nhận vận tải & logistics. Với sự tăng trưởng ổn định hàng năm, công ty đã trở thành một đối tác giao nhận vận tải quốc tế tích hợp cung cấp các dịch vụ trực tiếp tới nhiều điểm đến hơn bất kỳ đối thủ cạnh tranh nào trên thị trường...</p>
+            <div class="w-full ta-center"><a href="/about" class="btn btn-dark">Read more</a></div>
+        </div>
+    </div>
+
+    <!-- SERVICES -->
+    <div class="services container-fluid bg-gray1">
+        <div class="container fs7 flex-row wrap pv40">
+            <h2 class="w-full ta-center fs3 mb1">OUR SERVICES</h2>
+            <div class="seafreight flex-col align-center p15 wow fadeInLeft">
+                <a href="/services" class="box-100 rounded-circle relative bg-blue white hvr-bg-orange"><i class="fa fa-ship center-box" aria-hidden="true"></i></a>
+                <h3 class="fs">SEA FREIGHT</h3>
+            </div>
+            <div class="airfreight flex-col align-center p15 wow fadeInLeft">
+                <a href="/services" class="box-100 rounded-circle relative bg-blue white hvr-bg-orange"><i class="fa fa-plane center-box" aria-hidden="true"></i></a>
+                <h3 class="fs">AIR FREIGHT</h3>
+            </div>
+            <div class="consol flex-col align-center p15 wow fadeInRight">
+                <a href="/services" class="box-100 rounded-circle relative bg-blue white hvr-bg-orange"><i class="fa fa-building center-box" aria-hidden="true"></i></a>
+                <h3 class="fs">CONSOLIDATION</h3>
+            </div>
+            <div class="trucking flex-col align-center p15 wow fadeInRight">
+                <a href="/services" class="box-100 rounded-circle relative bg-blue white hvr-bg-orange"><i class="fa fa-truck center-box" aria-hidden="true"></i></a>
+                <h3 class="fs">TRUCKING</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- NEWS -->
+    <div class="news container flex-row wrap pv40 bb1">
+        <h2 class="w-full ta-center fs3 mb1">NEWS</h2>
+        <div class="news-item b-shadow1 flex-col wow fadeInUp">
+            <a href="https://fftrans.vn/post/dinh-huong-phat-trien-nghanh-logistics-den-2020" class="news-img h156" style="background-image: url(https://fftrans.vn/img/dinh-huong-phat-trien-nganh-logistics-2.jpg);"></a>
+            <h3 class="title p15 fs min-h90">Định hướng chi phí vận chuyển đến 2020</h3>
+            <div class="readmore mt-auto item-center"><a href="https://fftrans.vn/post/dinh-huong-phat-trien-nghanh-logistics-den-2020" class="btn btn-dark mb1">Read more</a></div>
+        </div>
+        <div class="news-item b-shadow1 flex-col wow fadeInUp">
+            <a href="https://fftrans.vn/post/xu-huong-logistics-2020-hien-hanh-ngay-nay-la-gi" class="news-img h156" style="background-image: url(https://fftrans.vn/img/xu-huong-logistics-2020-hien-hanh-ngay-nay-la-gi-2.jpg);"></a>
+            <h3 class="title p15 fs min-h90">Xu hướng Logistics 2020 hiện hành ngày nay là gì?</h3>
+            <div class="readmore mt-auto item-center"><a href="https://fftrans.vn/post/xu-huong-logistics-2020-hien-hanh-ngay-nay-la-gi" class="btn btn-dark mb1">Read more</a></div>
+        </div>
+        <div class="news-item b-shadow1 flex-col wow fadeInUp">
+            <a href="https://fftrans.vn/post/xu-huong-logistics-2020" class="news-img h156" style="background-image: url(https://fftrans.vn/img/xu-huong-logistics-2020.jpg);"></a>
+            <h3 class="title p15 fs min-h90">Ngành vận tải & logistics sẽ tiếp tục sôi động với những xu hướng phát triển trong năm 2020</h3>
+            <div class="readmore mt-auto item-center"><a href="https://fftrans.vn/post/xu-huong-logistics-2020" class="btn btn-dark mb1">Read more</a></div>
+        </div>
+        <!--
+        <div class="news-item b-shadow1 flex-col wow fadeInUp">
+            <a href="#" class="news-img h156" style="background-image: url(./img/slide-2.jpg);"></a>
+            <h3 class="title p15 fs min-h90">Kinh doanh online 2020: Kinh nghiệm xương máu (0 đến 300tr/tháng)</h3>
+            <div class="readmore mt-auto item-center"><a href="#" class="btn btn-dark mb1">Read more</a></div>
+        </div>
+        <div class="news-item b-shadow1 flex-col wow fadeInUp">
+            <a href="#" class="news-img h156" style="background-image: url(./img/slide-2.jpg);"></a>
+            <h3 class="title p15 fs min-h90">Kinh doanh online 2020: Kinh nghiệm xương máu (0 đến 300tr/tháng)</h3>
+            <div class="readmore mt-auto item-center"><a href="#" class="btn btn-dark mb1">Read more</a></div>
+        </div>
+        <div class="news-item b-shadow1 flex-col wow fadeInUp">
+            <a href="#" class="news-img h156" style="background-image: url(./img/slide-2.jpg);"></a>
+            <h3 class="title p15 fs min-h90">Kinh doanh online 2020: Kinh nghiệm xương máu (0 đến 300tr/tháng)</h3>
+            <div class="readmore mt-auto item-center"><a href="#" class="btn btn-dark mb1">Read more</a></div>
+        </div>
+        -->
+    </div>
+
+    <!-- CONTACT -->
+    <div class="contact container flex-row wrap justify-center pv40 ph15">
+        <h2 class="w-full ta-center fs3 mb1">SEND US A MESSAGE</h2>
+        <form id="contact_form" action="#" method="post" class="contact-form p30 bg-gray4">
+            <!-- Text input -->
+            <div class="mb20">
+                <input type="text" name="name" class="form-control" placeholder="Full Name" required title="Please enter your full name">
+            </div>
+            <!-- Email input -->
+            <div class="mb20">
+                <input type="text" name="email" class="form-control" placeholder="Email Address" required title="Please enter your email address">
+            </div>
+            <!-- Phone Number -->
+            <div class="mb20">
+                <input type="text" name="phone" class="form-control" placeholder="Telephone Number" required title="Please enter your telephone number">
+            </div>
+            <!-- Country -->
+            <div class="mb20">
+                <input type="text" name="country" class="form-control" placeholder="Country" required title="Please tell us where are you from">
+            </div>
+            <!-- Company -->
+            <div class="mb20">
+                <input type="text" name="company" class="form-control" placeholder="Company Name" title="Please enter your company name">
+            </div>
+            <!-- Message -->
+            <div class="mb20">
+                <textarea name="message" class="form-control" placeholder="Message" required title="Please enter your message"></textarea>
+            </div>
+            <!-- Button -->
+            <button type="submit" class="btn btn-dark">SEND MESSAGE</button>
+        </form>
+    </div>
+</main>
+<!-- END MAIN -->
+
+<!--BEGIN FOOTER-->
+    <footer class="footer fs8">
+        <div class="container-fluid bg-gray8 gray3">
+            <div class="container footer-info ph20 pv48 flex-row wrap">
+                <div class="office mb4">
+                    <h2 class="gray6 fs mb1">OFFICE</h2>
+                    <div class="mb2"><i class="fa fa-map-marker" aria-hidden="true"></i> HEADOFFICE<br>P926 9th Floor, Son Hai Building, 452 Le Thanh Tong Street, Van My Ward, Ngo Quyen District, Hai Phong City.</div>
+                    <div class="mb2"><i class="fa fa-map-marker" aria-hidden="true"></i> BRANCH<br> 2 Nguyen The Loc Street, Ward 12, Tan Binh District, Ho Chi Minh City.</div>
+                </div>
+                <div class="about mb4 pr30">
+                    <h2 class="gray6 fs mb1">ABOUT</h2>
+                    <a class="d-block gray3 hvr-white mb2" href="/about">Company</a>
+                    <a class="d-block gray3 hvr-white mb2" href="/about">FAQ</a>
+                    <a class="d-block gray3 hvr-white mb2" href="/contact">Contact</a>
+                </div>
+                <div class="services mb4 pr30">
+                    <h2 class="gray6 fs mb1">SERVICES</h2>
+                    <a class="d-block gray3 hvr-white mb2" href="/services">Consolidation Service</a>
+                    <a class="d-block gray3 hvr-white mb2" href="/services">Sea Freight</a>
+                    <a class="d-block gray3 hvr-white mb2" href="/services">Air Freight</a>
+                    <a class="d-block gray3 hvr-white mb2" href="/services">Trucking</a>
+                </div>
+                <div class="follow-us mb4">
+                    <h2 class="gray6 fs mb1">FOLLOW US</h2>
+                    <p class="mb10">You can focus on our facebook, Linkedin, Twitter, and so on.</p>
+                    <div class="flex-row fs">
+                        <a href="#" class="box-40 relative bg-orange white rounded-circle hvr-circle"><i class="fa fa-facebook-f center-box"></i></a>
+                        <a href="#" class="box-40 relative bg-orange white rounded-circle hvr-circle ml15"><i class="fa fa-twitter center-box"></i></a>
+                        <a href="#" class="box-40 relative bg-orange white rounded-circle hvr-circle ml15"><i class="fa fa-linkedin center-box"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="footer-copyright container-fluid bg-gray9 gray6 ta-center fs9">
+            <div class="container pv5 ph10">Copyright © 2020 | F&F TRANSPORTS All rights reserved | Designed by lecong1440@gmail.com</div>
+        </div>
+    </footer>
+<!--END FOOTER-->
+
+    <script>
+        var toggle = document.getElementsByClassName("toggle");
+        var nav = document.getElementById("nav");
+        toggle[0].addEventListener("click", showMenu);
+        toggle[1].addEventListener("click", showMenu);
+        function showMenu() {
+            nav.classList.toggle('show-menu');
+        }
+        
+            /* Thêm hoặc xóa class show-dropdown ra khỏi phần tử */
+        function showDropdown(id) {
+            document.getElementById(id).classList.toggle("show-dropdown");
+        }
+        //lấy tất cả các button menu
+        var buttons = document.getElementsByClassName('dropbtn');
+        //lấy tất cả các thẻ chứa menu con
+        var contents = document.getElementsByClassName('dropdown-content');
+        //lặp qua tất cả các button menu và gán sự kiện
+        var lenBtn = buttons.length;
+        var lenContent = contents.length;
+        for (var i = 0; i < lenBtn; i++) {
+            buttons[i].addEventListener("click", function(){
+                document.getElementById(this.id).classList.toggle("show-icon");
+                //lấy value của button
+                var id = this.id + "-drop";
+                //ẩn tất cả các menu con đang được hiển thị
+                // for (var j = 0; j < lenContent; j++) {
+                //     contents[j].classList.remove("show-dropdown");
+                // }
+                //hiển thị menu vừa được click
+                showDropdown(id);
+            });
+        }
+        //nếu click ra ngoài các button thì ẩn tất cả các menu con
+        // window.addEventListener("click", function(){
+        //     if (!event.target.matches('.dropbtn')){
+        //         for (var i = 0; i < lenContent; i++) {
+        //             contents[i].classList.remove("show-dropdown");
+        //         }
+        //     }
+        // });
+        
+        // CAROUSEL
+                
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
